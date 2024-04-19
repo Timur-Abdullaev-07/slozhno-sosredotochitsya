@@ -4,6 +4,7 @@
   --main-color: #ff8dcB;
   --accent-color: #ffc2e6;
   --text-color: #353430;
+  --button-hover-border: rgba(53, 52, 48, .4);
   --header-background-image: url(../images/cover-image-light.png);
 }
 
@@ -26,6 +27,7 @@
     --main-color: #ff8dcB;
     --accent-color: #ffc2e6;
     --text-color: #353430;
+    --button-hover-border: rgba(53, 52, 48, .4);
     --header-background-image: url(../images/cover-image-light.png);
   }
 

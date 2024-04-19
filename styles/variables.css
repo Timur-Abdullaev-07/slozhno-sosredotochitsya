@@ -5,5 +5,12 @@
   --accent-color: #db00ff;
   --text-color: #f1b2ce;
   --main-padding: 10px;
+  --button-hover-border: rgba(255, 0, 112, .4);
   --header-background-image: url(../images/cover-image-dark.png);
+}
+
+@media (768px <= width) {
+  :root {
+    --main-padding: 20px;
+  }
 }
