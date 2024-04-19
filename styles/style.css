@@ -3,6 +3,11 @@
   font-family: 'IBM Plex mono', sans-serif;
   font-size: 18px;
   background-color: var(--background-color);
+  background-image: var(--header-background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .decorated-rec {
@@ -33,10 +38,6 @@
   grid-template-columns: 100%;
   min-block-size: 100vh;
   padding: var(--main-padding);
-  background-image: var(--header-background-image);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   font-size: 18px;
 }
 
